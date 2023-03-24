@@ -1,0 +1,33 @@
+html{
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title{
+    width: 270px;
+    background-color: black;
+    color:white;
+}
+
+#letter-c{
+    color: blueviolet;
+}
+
+#letter1-o{
+    color: yellow;
+}
+
+#letter-l{
+    color: rgb(13, 93, 222);
+}
+
+#letter2-o{
+    color: rgb(150, 11, 11);
+}
+
+#letter-r{
+    color: rgb(101, 14, 144);
+}
+
+#letter-s{
+    color: orangered;
+}
