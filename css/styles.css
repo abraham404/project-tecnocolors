@@ -1,15 +1,61 @@
-html{
-     font-family: Arial, Helvetica, sans-serif;
+
+header{
+    position: absolute;
+    padding-left: 40px;
+
+
 }
 
-.header-title{
-    width: 270px;
+.bar{
     background-color: black;
+    height: 100px;
+    z-index: -1;
+    
+}
+
+.logo{
+    width: 270px;
+    
+    margin: 0;
     color:white;
+
+    padding-bottom: 0;
+    margin-bottom: 0;
+    z-index: 100;
+}
+
+h1{
+
+    position: absolute;
+    font-family: 'Chathura', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.all-colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 200px;
+    margin-top: 50px;
+    z-index: 200;
+    
+
+}
+
+.colors{
+    height: 6px;
+}
+
+
+#letter-t{
+    font-size: 60px;
 }
 
 #letter-c{
     color: blueviolet;
+    font-size: 60px;
 }
 
 #letter1-o{
@@ -30,4 +76,25 @@ html{
 
 #letter-s{
     color: orangered;
+}
+
+
+
+
+.color-magenta{
+    background-color: magenta;
+}
+
+
+.color-white{
+    background-color: white;
+    color: white;
+}
+
+.color-cyan{
+    background-color: cyan;
+}
+
+.color-yelow{
+    background-color: yellow;
 }
