@@ -1,53 +1,26 @@
-
-header{
-    position: absolute;
-    padding-left: 40px;
-
-
+body{
+    height: 3000px;
 }
 
-.bar{
+.div-header{
     background-color: black;
-    height: 100px;
-    z-index: -1;
+    position: fixed;
+    display:flex;
+    align-items: center;
     
-}
-
-.logo{
-    width: 270px;
-    
-    margin: 0;
-    color:white;
-
-    padding-bottom: 0;
-    margin-bottom: 0;
-    z-index: 100;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 90vh;
 }
 
 h1{
-
-    position: absolute;
     font-family: 'Chathura', sans-serif;
-    margin: 0;
-    padding: 0;
-    font-size: 50px;
     letter-spacing: 3px;
+    font-size: 50px;
+    color: white;
+    margin: 0;
 }
-
-.all-colors{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 200px;
-    margin-top: 50px;
-    z-index: 200;
-    
-
-}
-
-.colors{
-    height: 6px;
-}
-
 
 #letter-t{
     font-size: 60px;
@@ -76,25 +49,4 @@ h1{
 
 #letter-s{
     color: orangered;
-}
-
-
-
-
-.color-magenta{
-    background-color: magenta;
-}
-
-
-.color-white{
-    background-color: white;
-    color: white;
-}
-
-.color-cyan{
-    background-color: cyan;
-}
-
-.color-yelow{
-    background-color: yellow;
 }
