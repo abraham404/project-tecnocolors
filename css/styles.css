@@ -1,48 +1,56 @@
 body{
+    margin: 0;
     height: 3000px;
+}
+
+
+.div-logo{
+    z-index: 200;
+    margin-top: -22px;
+
 }
 
 .div-header{
     background-color: black;
-    position: fixed;
-
+    justify-items: center;
     align-items: center;
-    top: 0;
-    right: 0;
-    left: 0;
-    height: 10%;
-}
-
-.div-logo{
-    position: relative;
-    margin-left: 3em;
-}
-
-.div-header{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
 }
+
 
 .search-button{
     display: grid;
     grid-template-columns: 2fr 0.3fr;
-    justify-items: center;
-    text-align: center;
+    width: 300px;
     background-color: white;
   
 }
 
+img{
+    width: 22px;
+    margin-top: 4px;
+}
+
 #search-btn{
-    
     padding: 0.4em 1em;
     background-color: white;
     border-style: none;
-    padding: 20px 25px;
-    background-color: lightblue;
-    
-    
+    padding: 5px;
+    border-style: none;
+    outline: none;      
+}
+
+#search-btn:hover{
+    cursor: pointer;
 }
 
 h1{
@@ -60,7 +68,7 @@ h1{
     
     border-style: none;
     outline: none;
-    background-color: lightpink;
+    
 }
 
 /*--------------letters colors--------------------*/
@@ -126,7 +134,19 @@ h1{
 }
 
 /*----------------------------------*/
-
 a{
     color: yellow;
+}
+
+@media screen and (max-width: 800px){
+    .div-header{
+        grid-template-columns: 1fr;
+        height: 90px;
+        row-gap: 3px;
+    }
+
+    .div-contact{
+        display: none;
+    }
+
 }
