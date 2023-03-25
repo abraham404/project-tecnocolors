@@ -5,23 +5,65 @@ body{
 .div-header{
     background-color: black;
     position: fixed;
-    display:flex;
+
     align-items: center;
-    
     top: 0;
     right: 0;
     left: 0;
-    bottom: 90vh;
+    height: 10%;
+}
+
+.div-logo{
+    position: relative;
+    margin-left: 3em;
+}
+
+.div-header{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.search-button{
+    display: grid;
+    grid-template-columns: 2fr 0.3fr;
+    justify-items: center;
+    text-align: center;
+    background-color: white;
+  
+}
+
+#search-btn{
+    
+    padding: 0.4em 1em;
+    background-color: white;
+    border-style: none;
+    padding: 20px 25px;
+    background-color: lightblue;
+    
+    
 }
 
 h1{
     font-family: 'Chathura', sans-serif;
-    letter-spacing: 3px;
+    letter-spacing: 4px;
     font-size: 50px;
     color: white;
     margin: 0;
+    z-index: -1;
 }
 
+#search-item{
+    
+    padding-left: 12px;
+    
+    border-style: none;
+    outline: none;
+    background-color: lightpink;
+}
+
+/*--------------letters colors--------------------*/
 #letter-t{
     font-size: 60px;
 }
@@ -49,4 +91,42 @@ h1{
 
 #letter-s{
     color: orangered;
+}
+
+/*-----------------------------------*/
+
+.colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 212px;
+    margin-top: -18px;
+    z-index: 50;
+}
+
+.color{
+    height: 3px;
+}
+
+.color-magenta{
+    background-color: magenta;
+}
+
+
+.color-white{
+    background-color: white;
+    color: white;
+}
+
+.color-cyan{
+    background-color: cyan;
+}
+
+.color-yelow{
+    background-color: yellow;
+}
+
+/*----------------------------------*/
+
+a{
+    color: yellow;
 }
