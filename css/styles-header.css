@@ -5,7 +5,7 @@ html{
 
 body{
     margin: 0;
-    height: 3000px;
+    height: 2500px;
 }
 
 
@@ -109,8 +109,8 @@ h1{
 
 .colors{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 212px;
+    grid-template-columns: repeat(4, 1fr);
+    width: auto;
     margin-top: -18px;
     z-index: 50;
 }
