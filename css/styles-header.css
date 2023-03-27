@@ -110,7 +110,7 @@ h1{
 .colors{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    width: auto;
+    width: 218px;
     margin-top: -18px;
     z-index: 50;
 }
