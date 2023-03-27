@@ -1,3 +1,8 @@
+html{
+    font-family: Arial;
+}
+
+
 body{
     margin: 0;
     height: 3000px;
@@ -24,6 +29,7 @@ body{
     right: 0;
     left: 0;
     z-index: 100;
+    
 }
 
 
@@ -63,9 +69,7 @@ h1{
 }
 
 #search-item{
-    
     padding-left: 12px;
-    
     border-style: none;
     outline: none;
     
@@ -149,4 +153,7 @@ a{
         display: none;
     }
 
+    .search-button{
+        width: 300px;
+    }
 }
